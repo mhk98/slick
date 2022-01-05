@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+
+    margin: 0;
+
+}
+
+.slider1{
+    width: 100%;
+    height: 600px !important;
+    background-color: crimson;
+}
+
+.slider2{
+    width: 100%;
+    height: 600px !important;
+    background-color: rgb(20, 83, 220);
+}
+
+.slider3{
+    width: 100%;
+    height: 600px !important;
+    background-color: rgb(20, 220, 97);
+}
+
+.slider4{
+    width: 100%;
+    height: 600px !important;
+    background-color: rgb(203, 20, 220);
+}
+
+.slider5{
+    width: 100%;
+    height: 600px !important;
+    background-color: rgb(220, 117, 20);
+}
+
+#banner{
+    position: relative;
+}
+
+#banner ul{
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translate(-50%);
+padding-bottom: 10px;
+}
+#banner ul li{
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#banner ul li button{
+    font-size: 0;
+    border: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+   
+}
+
+#banner ul li.slick-active button{
+    border-color: #fff;
+    background-color: #fff;
+}
+
+#banner .icon{
+    width: 40px;
+    height: 40px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+#banner .icon:hover{
+background-color: #fff;
+color: #111;
+}
+
+#banner .icon.left{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+
+#banner .icon.right{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+}
+
+#main-slider .image-slider{
+    width: 100%;
+    height: 300px;
+    
+}
+
+#main-slider .text-slider{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+.image-slider .image-item{
+    width: 31%;
+    height: 300px;
+    background-color: blue;
+}
